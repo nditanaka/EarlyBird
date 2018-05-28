@@ -48,7 +48,7 @@
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script>
 $.ajax({
-    url: '/hashtag_hangry'
+    url: '/tweets5'
   }).done( function(data) {
     // DO STUFF WITH data
     var myDiv = $(".take-flight-project-insert");
@@ -799,13 +799,23 @@ $.ajax({
   <p class="ProfileWarningTimeline-explanation">Are you sure you want to view these Tweets? Viewing Tweets won't unblock <span class="username u-dir" dir="ltr">@<b>jack</b></span></p>
   <button class="btn ProfileWarningTimeline-button">Yes, view profile</button>
 </div>
-    
-<div class="ProfileHeading-content">
-<a class="ProfileNav-stat ProfileNav-stat--link u-borderUserColor u-textCenter js-tooltip js-nav" href="me.html"tabindex="0">
-    <span class="ProfileNav-value"data-is-compact="true"><#Hangry
-    </span>
-  </a>
-</div>
+                  
+<div class="ProfileHeading-spacer"></div>
+    <div class="ProfileHeading-content">
+      
+        
+
+          <!-- Added a new one -->
+
+            
+            <a class="ProfileNav-stat ProfileNav-stat--link u-borderUserColor u-textCenter js-tooltip js-nav" href="me.html" tabindex="0">
+           <span class="ProfileNav-value"data-is-compact="false"> <&nbsp;#Hangry
+            </span>
+          </a>
+        
+    </div>
+
+    <div class="ProfileHeading-content"> </div>
 
 
 
